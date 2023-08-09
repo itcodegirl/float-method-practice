@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+  <!--Float Method -->
+  <h1>Float Method</h1>
+  <h2>
+    The CSS float property is used to set the alignment of an element within its
+    parent container. It allows elements to float horizontally within their
+    container, which can be quite useful for creating layouts and positioning
+    content on a webpage. When an element is floated, it is taken out of the
+    normal flow of the document and is moved to the left or right of its
+    container, allowing other elements to flow around it. To give you a better
+    understanding, let's consider an example. Imagine you have a container div
+    with two child divs inside it. By default, these divs will stack vertically,
+    one below the other. However, if we apply the float property to one of the
+    child divs, it will be moved to the left or right of its container, and the
+    other div will flow around it.
+  </h2>
+
+  <div class="float-container">
+    <div class="float-child">
+      <div class="green">Float Column 1</div>
+    </div>
+
+    <div class="float-child">
+      <div class="blue">Float Column 2</div>
+    </div>
+    <!-- Float Method Code End -->
+    <!-- Float HTML Code-->
+
+    <div class="container-div">
+      <img src="images/float-1.jpg" alt="HTML Float Code" />
+    </div>
+    <br />
+    <div class="container-div">
+      <img src="images/float-2.jpg" alt="CSS Float Code" />
+    </div>
+    <br />
+    <div class="container-div">
+      <img src="images/float-3.jpg" alt="Snip of Float Method Example" />
+    </div>
+    <h2>
+      <p>
+        In this example, the first child div is given the class "float-left" and
+        the float property is set to "left". This makes it float to the left
+        side of the container div. The second child div has no float property
+        applied and remains unaffected.
+      </p>
+      <p>
+        By experimenting with different float values such as "left", "right", or
+        "none" (default), you can control the positioning of elements within
+        their container. Do note that floated elements may require additional
+        CSS properties like "clear" to prevent unwanted overlapping or unwanted
+        floating of subsequent elements.
+      </p>
+
+      <p>
+        It's worth emphasizing that the float property does not work without a
+        specified width. You must define a width (in pixels or percentages) for
+        the floated elements so that the browser knows how much space they
+        should occupy.
+      </p>
+    </h2>
+    <!-- Example 2 Code-->
+    <h2 class="example-2">
+      <p>
+        The float property in CSS is used to control the positioning of elements
+        within their parent container. By applying float to an element, you can
+        make it float horizontally, either to the left or right side of its
+        container. When an element is floated, it is taken out of the normal
+        flow of the document, and other elements flow around it.
+      </p>
+    </h2>
+    <div class="container-div">
+        <img src="images/float-4.jpg" alt="HTML Float Code" />
+    </div>
+    <div class="container-div">
+        <img src="images/float-5.jpg" alt="CSS Float Code" />
+    </div>
+    <div class="container-div">
+        <img src="images/float-6.jpg" alt="Snip of Float Method Example" />
+    </div>
+    <h2>
+      <p>
+          <p>This example not very flexible. It is ok to use CSS height if you can guarantee that the boxes will always have the same amount of content in them, but that's not always the case. If you try the example above on a mobile phone (or resize the browser window), you will see that the second box's content will be displayed outside of the box.</p>
+      </p>
+    </h2>
+    <h2>
+      <p>
+        I hope this explanation and example help you understand the basic
+        concept of the CSS float property. Feel free to play around with the
+        code, change values, and observe the effects to get a better grasp of
+        how float can be useful in creating different layouts.
+      </p>
+    </h2>
+  </div>
+</body>

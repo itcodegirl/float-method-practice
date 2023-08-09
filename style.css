@@ -1,0 +1,25 @@
+body {
+  margin: auto;
+  background-color: black;
+  color: chartreuse;
+}
+
+.example-2 {
+  color: burlywood;
+}
+
+.float-container {
+  width: 100%;
+  border: 3px solid #fff;
+  padding: 40px;
+}
+
+.float-child {
+  width: 40%;
+  float: left;
+  border: 2px solid red;
+}
+
+.container-div {
+  border: aqua 5px solid;
+}
